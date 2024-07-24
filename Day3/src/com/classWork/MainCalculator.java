@@ -8,7 +8,7 @@ public class MainCalculator {
 		sc.pow(2, 3);
 		
 //		ArithmaticCalculator ac = new ArithmaticCalculator();  Not possible as abstract
-		ArithmaticCalculator ac = new ScientificCalculator();  //accessing thru childs object class
+		ArithmaticCalculator ac = new ScientificCalculator();  //accessing thru child's object class
 		
 		ac.pow(3, 3);
 		
