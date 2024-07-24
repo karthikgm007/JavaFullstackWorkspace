@@ -10,7 +10,7 @@ public class Info {
 	
 	public void display(Course course) { 
 		Course c = course;
-		System.out.println("Course [id=" + c.id + ", name=" + c.name + ", duration=" + c.duration + ", fees=" + c.fees + "]");
+		System.out.println("Course [id=" + c.getId() + ", name=" + c.getName() + ", duration=" + c.getDuration() + ", fees=" + c.getFees() + "]");
 	} 
 	
 }

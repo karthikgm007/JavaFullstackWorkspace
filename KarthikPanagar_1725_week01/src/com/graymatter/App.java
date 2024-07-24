@@ -119,13 +119,12 @@ public class App {
 //        Enroll[] enrollments = ae.listOfEnrollments();
 //        for (Enroll enrollment : enrollments) {
 //            if (enrollment != null) {
-//                System.out.println("Student: " + enrollment.getStudent().getName() + " enrolled in " + enrollment.getCourse().name + " on " +  enrollment.getEnrollmentDate() );
+//                Syst1m.out.println("Student: " + enrollment.getStudent().getName() + " enrolled in " + enrollment.getCourse().name + " on " +  enrollment.getEnrollmentDate() );
 //            }
 //        }
 		
 		AppEngine ae = new AppEngine();
 		ae.showFirstScreen();
-		//added comment 
 		
 	}
 	
